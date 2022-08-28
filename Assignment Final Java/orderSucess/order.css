@@ -1,0 +1,101 @@
+
+
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(27, 25, 25);
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* BURGER STYLE */
+  
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .toggle .line2 {
+    opacity: 0;
+  }
+  
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  
+#order{
+    margin-top: 200px;
+    height: 300px;
+    width: 100%;
+}
+#order-section{
+    text-align: center;
+}
+#checkout-icon{
+    font-size: 60px;
+    color: green;
+}
+#order-head{
+    font-size: 40px;
+    color: green;
+}
+
+
+footer {
+    background-color: black;
+    height: 180px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  footer ul li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  footer ul li a,
+  footer ul li {
+    text-decoration: none;
+    color: #b8b8b8;
+    font-size: 12px;
+  }
+  
+  footer ul li a:hover,
+  footer ul li:hover {
+    color: #009688;
+  }
+  
+  footer ul li h3 {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+    footer ul {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    footer ul {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  }
+  
+  
+  /* Footer Style End  */
